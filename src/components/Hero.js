@@ -1,11 +1,14 @@
 import './Hero.css'
 import { Link } from 'react-router-dom';
+import VID from "../assets/itbvideo.mp4"
 
 function Hero (props){
     return(
         <>
          <div className={props.cName}>
-            <img alt='ITB' src={props.heroImg} />
+           <video width="100%" height="100%" autoPlay loop muted>
+              <source src={ VID } type="video/mp4"/>
+           </video>
 
             <div className='hero-desk'>
                 <p>{props.title}</p>

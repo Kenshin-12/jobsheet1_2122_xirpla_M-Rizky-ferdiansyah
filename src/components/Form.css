@@ -1,0 +1,11 @@
+.pendaftaran{
+    width: 100%;
+    height: 80vh;
+    display: block;
+}
+
+.pendaftaran img{
+    width: 100%;
+    height: 80vh;
+    position: relative;
+}

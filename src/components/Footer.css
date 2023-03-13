@@ -1,16 +1,16 @@
 .footer{
     width: 100%;
-    height: 50vh;
+    height: 35vh;
     display: flex;
     position: sticky;
     justify-content: center;
     padding:2.5rem 0 2rem 0;
-    background-color: black;
+    background-color: #00D1FF;
 }
 
 .top{
-    height: 43vh;
-    gap: 5rem;
+    height: 4vh;
+    gap: 2.5rem;
     display: flex;
     flex-direction: column;
 }

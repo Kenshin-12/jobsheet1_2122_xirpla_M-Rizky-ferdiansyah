@@ -1,6 +1,7 @@
 import "./Navbar.css"
 import { Component } from "react"
 import { Link } from "react-router-dom";
+import LOGO from "../assets/logo3.png"
 import { MenuItems } from "./MenuItems";
 
 function myFunction() {
@@ -25,8 +26,13 @@ class Navbar extends Component {
     return(
         <nav className="NavbarItems">
             <div className="logo">
-                <h1 className="navbar-logo">INSTITUT</h1>
+              <div className="nav-text">
+              <h1 className="navbar-logo">INSTITUT</h1>
                 <h3 className="navbar-logo2">TEKNOLOGI BANDUNG</h3>
+              </div>
+              <div className="nav-img">
+                <img src={LOGO} className="ITB" />
+              </div>
             </div>
             <ul className="nav-menu">
                 {MenuItems.map((item, index) => {

@@ -11,7 +11,7 @@ function Footer() {
             </div>
             <div className='media'>
                 <a href="https://www.instagram.com/_kyr1z_/"><i class="fa-brands fa-instagram"></i>INSTAGRAM</a>
-                <a href="https://www.linkedin.com/in/kyy-unch-814280262/"><i class="fa-brands fa-linkedin"></i>TWITTER</a>
+                <a href="https://www.linkedin.com/in/kyy-unch-814280262/"><i class="fa-brands fa-linkedin"></i>LINKEDIN</a>
                 <a href="https://www.facebook.com/muhammadrizkyferdiansya.ferdiansya.3/"><i class="fa-brands fa-facebook"></i>FACEBOOK</a>
             </div>
         </div>
