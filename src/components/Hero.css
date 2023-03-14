@@ -231,3 +231,16 @@ th{
     flex-direction: row;
     gap: 7rem;
 }
+
+audio{
+    position: fixed;
+    z-index: 3;
+    right: -2rem;
+    top: 20rem;
+    rotate: calc(90deg);
+    width: 10%;
+}
+
+audio::-webkit-media-controls-panel{
+    background-color: #3D6CB9;
+}

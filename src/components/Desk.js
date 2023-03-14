@@ -2,6 +2,7 @@ import React from 'react'
 import './Hero.css'
 import { Link } from 'react-router-dom'
 import VID2 from '../assets/itbvideo2.mp4'
+import AUD from '../assets/limbo.mp3'
 
 const Desk = (props) => {
   return (
@@ -215,6 +216,9 @@ const Desk = (props) => {
           </div>
         </div>
     </div>
+    <audio controls loop>
+      <source src={AUD} type='audio/mp3'/>
+    </audio>
     </>
   )
 }
