@@ -21,6 +21,7 @@
     top: 0px;
     z-index: 1;
 }
+
  .logo{
     width: 22%;
     height: auto;
@@ -94,6 +95,8 @@
     background-color: inherit;
     font-family: inherit;
     margin: 0;
+    position: relative;
+    top:10%;
   }
   
   .navbar a:hover, .dropdown:hover .dropbtn {

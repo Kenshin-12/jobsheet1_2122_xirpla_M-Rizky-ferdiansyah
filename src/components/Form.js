@@ -13,7 +13,7 @@ const Form = () => {
          </div>
     </div>
     <div id='formulir' className='form'>
-      <header>
+      <header style={{paddingBottom:'2.5rem'}}>
         <h1 style={{ textAlign:'center'}}>
           FORMULIR
         </h1>
